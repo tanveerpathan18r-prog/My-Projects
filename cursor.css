@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:black;
+    color:#99ccff;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.head{
+	padding:10px;
+	text-decoration:underline;
+	color:#85b3e0;
+	 background-image: linear-gradient(to right, #153351, #4775d1, #7194da);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background:#538cc6;
+}
+
+th, td {
+    border: 3px solid #19334d;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background: #3e80c1;
+    color: white;
+    font-size: 20px;
+}
+
+tr:nth-child(odd) {
+    background: #2c5987;
+	
+}
+
+tr:nth-child(even) {
+    background: #6599cd;
+	transition: 0.3s;
+}
+tr:hover{
+	 background-image: linear-gradient(to right,#666699,#8585ad);
+}
+
+.step {
+    font-size: 20px;
+    font-weight: bold;
+    width: 50px;
+}
+
+.cursor {
+    font-weight: bold;
+}
+
+.usage {
+    text-align: left;
+    line-height: 1.10;
+}
+
+img {
+    width: 190px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 3px dotted #6699cc;
+	transition:smooth;
+}
+img:hover{
+	 filter: drop-shadow(10px 10px 7px orange);
+	 border: 5px dotted #6699cc;
+	
+}
+
+.alias { cursor: alias; }
+.all-scroll { cursor: all-scroll; }
+.auto { cursor: auto; }
+.cell { cursor: cell; }
+.col-resize { cursor: col-resize; }
+.context-menu { cursor: context-menu; }
+.copy { cursor: copy; }
+.crosshair { cursor: crosshair; }
+.pointer { cursor: pointer; }
+.move { cursor: move; }
+.help { cursor: help; }
+.grab { cursor: grab; }
+.wait { cursor: wait; }
+.zoom-in { cursor: zoom-in; }
+.zoom-out { cursor: zoom-out; }
+
+.blur img {
+    filter: blur(5px);
+}
+
+.brightness img {
+    filter: brightness(50%);
+}
+
+.contrast img {
+    filter: contrast(200%);
+}
+
+.grayscale img {
+    filter: grayscale(100%);
+}
+
+.hue img {
+    filter: hue-rotate(90deg);
+}
+
+.invert img {
+    filter: invert(100%);
+}
+
+.opacity img {
+    filter: opacity(40%);
+}
+
+.saturate img {
+    filter: saturate(300%);
+}
+
+.sepia img {
+    filter: sepia(100%);
+}
+
+.drop-shadow img {
+    filter: drop-shadow(8px 8px 5px gray);
+}
+
+.combo img {
+    filter: grayscale(100%) contrast(150%) brightness(120%);
+}
